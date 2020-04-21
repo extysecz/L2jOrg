@@ -1022,7 +1022,7 @@
         </attributes>
         <target/>
 		<conditions>
-            <level min-level="1" max-level="60" scope="PASSIVE"/>
+            <level max-level="60" min-level="1" scope="PASSIVE"/>
         </conditions>
 		<abnormal type="EXP_SP_I">
             <level initial="2"/>

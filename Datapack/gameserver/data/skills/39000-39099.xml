@@ -687,7 +687,7 @@
     <skill id="39045" name="Chapeau's Authority" action="A2">
         <!-- For 20 minutes, XP/SP Gain +5%%. Effect remains even after death. -->
         <icon initial="icon.skill19226"/>
-        <attributes property="PHYSIC">
+        <attributes property="PHYSIC" stay-after-death="true">
             <cast-range initial="-1"/>
             <reuse initial="3600000"/>
             <effect-point initial="1"/>
@@ -695,7 +695,8 @@
             <activate-rate initial="-1"/>
         </attributes>
         <target/>
-        <abnormal>
+        <abnormal type="EXP_SP_M">
+            <level initial="1"/>
             <time initial="1200"/>
             <chance initial="-1"/>
         </abnormal>
@@ -971,9 +972,10 @@
         <attributes property="MAGIC" magic-critical-rate="5.0" stay-after-death="true">
         </attributes>
         <target/>
-        <conditions>
-            <level max-level="85" scope="PASSIVE"/>
-        </conditions>
+        <!-- <abnormal type="EXP_SP_P"> -->
+            <!-- <level initial="1"/> -->
+            <!-- <time initial="1200"/> -->
+        <!-- </abnormal> -->
         <effects>
             <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="20.0"/>
@@ -1539,9 +1541,6 @@
             <stat-modify mode="PER" stat="REGENERATE_MP_RATE">
                 <power initial="20.0"/>
             </stat-modify>
-            <hp-drain percentage="3">
-                <power initial="49.0"/>
-            </hp-drain>			
             <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="5.0"/>
             </stat-modify>

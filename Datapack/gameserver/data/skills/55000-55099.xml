@@ -542,9 +542,10 @@
         <attributes property="MAGIC" magic-critical-rate="5.0" stay-after-death="true">
         </attributes>
         <target/>
-        <conditions>
-            <level max-level="85" scope="PASSIVE"/>
-        </conditions>
+        <!-- <abnormal type="EXP_SP_O"> -->
+            <!-- <level initial="1"/> -->
+            <!-- <time initial="3600"/> -->
+        <!-- </abnormal> -->
         <effects>
             <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="10.0"/>

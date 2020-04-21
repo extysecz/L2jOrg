@@ -131,7 +131,7 @@
     <skill id="55311" name="Overwhelming Power of a Holiday Hat" action="A1">
         <!-- For 60 minutes, XP/SP gain +5%%. Will not be deleted upon death. -->
         <icon initial="icon.skill19226"/>
-        <attributes property="PHYSIC">
+        <attributes property="PHYSIC" stay-after-death="true">
             <cast-range initial="-1"/>
             <reuse initial="3600000"/>
             <effect-point initial="1"/>
@@ -139,6 +139,19 @@
             <activate-rate initial="-1"/>
         </attributes>
         <target/>
+		<abnormal type="EXP_SP_M">
+            <level initial="1"/>
+            <time initial="3600"/>
+            <chance initial="-1"/>
+        </abnormal>
+        <effects>
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
+                <power initial="5.0"/>
+            </stat-modify>
+            <stat-modify mode="PER" stat="BONUS_SP">
+                <power initial="5.0"/>
+            </stat-modify>
+        </effects>
     </skill>
     <skill id="55312" name="Test Cube" action="A1">
         <!-- none -->

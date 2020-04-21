@@ -499,6 +499,7 @@
                 <xs:sequence>
                     <xs:element name="experience" type="MappedLevelValue"/>
                     <xs:element name="death-penalty" type="MappedLevelValue"/>
+                    <xs:element name="item" type="MappedLevelValue"/>
                 </xs:sequence>
                 <xs:attribute name="type" type="ReduceDropType" default="ANY"/>
             </xs:extension>

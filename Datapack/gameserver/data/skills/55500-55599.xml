@@ -1209,6 +1209,17 @@
         <attributes property="MAGIC">
         </attributes>
         <target/>
+		<!-- <abnormal type="EXP_SP_S"> -->
+            <!-- <level initial="1"/> -->
+        <!-- </abnormal> -->
+        <effects>
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
+                <power initial="40.0"/>
+            </stat-modify>
+            <stat-modify mode="PER" stat="BONUS_SP">
+                <power initial="40.0"/>
+            </stat-modify>			
+        </effects>
     </skill>
     <skill id="55592" name="Hero's Bracelet">
         <!-- Activates 4 Talisman slots.  HP/ MP/ CP +5%%. -->

@@ -359,6 +359,15 @@
         <attributes property="MAGIC">
         </attributes>
         <target/>
+		<effects>           
+            <reduce-drop-penalty>
+                <item initial="-50.0">
+					<value level="2">-70.0</value>
+                    <value level="3">-80.0</value>
+                    <value level="4">-100.0</value>
+                </item>
+            </reduce-drop-penalty>           
+        </effects>
     </skill>
     <skill id="59329" name="Cute Animal Friends" action="A1">
         <!-- Max CP +80 -->
