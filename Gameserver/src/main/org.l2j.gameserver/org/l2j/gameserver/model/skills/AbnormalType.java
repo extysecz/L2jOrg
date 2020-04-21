@@ -542,7 +542,8 @@ public enum AbnormalType {
 	EXP_SP_W(-1),
 	EXP_SP_X(-1),
 	EXP_ELEMENTAL(-1),
-	ISHKA_BUFF(-1);
+	ISHKA_EFFECT(-1),
+	TRANSFORM_EFFECT(-1);
 
     protected static final Logger LOGGER = LoggerFactory.getLogger(AbnormalType.class);
     private int _clientId;

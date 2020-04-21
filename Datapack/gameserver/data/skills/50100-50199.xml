@@ -269,15 +269,33 @@
         <target/>
     </skill>
     <skill id="50122" name="Lord Ishka's Raid Shield" action="A1" type="MAGIC">
-        <!-- P. Def. and M. Def. are increased for 5 minutes. -->
         <icon initial="icon.skill0110"/>
-        <attributes property="PHYSIC">
+        <attributes property="PHYSIC" magic-critical-rate="5.0">
             <cast-range initial="-1"/>
             <effect-range initial="-1"/>
             <hit-time initial="100"/>
             <activate-rate initial="-1"/>
         </attributes>
-        <target/>
+        <target type="TARGET"/>
+        <abnormal type="ISHKA_EFFECT">
+            <level initial="1"/>            
+            <time initial="1200"/>
+            <chance initial="-1"/>
+        </abnormal>
+        <effects>
+            <stat-modify stat="PHYSICAL_ATTACK">
+                <power initial="100.0"/>
+            </stat-modify>
+            <stat-modify stat="MAGIC_ATTACK">
+                <power initial="100.0"/>
+            </stat-modify>
+			<stat-modify mode="PER" stat="CRITICAL_DAMAGE">
+                <power initial="1.0"/>
+            </stat-modify>
+			<stat-modify mode="PER" stat="MAGIC_CRITICAL_DAMAGE">
+                <power initial="1.0"/>
+            </stat-modify>
+        </effects>
     </skill>
     <skill id="50123" name="Blue Eagle's Grace" action="A2">
         <!-- Sayha's Grace Consumption Speed -50%%. -->
