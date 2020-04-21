@@ -285,30 +285,45 @@
 	<!-- 1-hour item. When in inventory, your XP and SP gain is increased by 50%. -->
 		<restriction freightable="false" tradable="false" dropable="false" sellable="false" private-sellable="false" depositable="false"/>
 		<attributes duration="60"/>
+		<skills>
+			<skill id="55718" value="-1"/>  <!-- XP Rune 50% -->
+		<skills>
 	</item>
 
 	<item id="71242" name="XP/SP Rune - 50%" type="RUNE" icon="icon.skill19226">
 	<!-- 5-hour item. When in inventory, your XP and SP gain is increased by 50%. -->
 		<restriction freightable="false" tradable="false" dropable="false" sellable="false" private-sellable="false" depositable="false"/>
 		<attributes duration="300"/>
+		<skills>
+			<skill id="55718" value="-1"/>  <!-- XP Rune 50% -->
+		<skills>
 	</item>
 
 	<item id="71243" name="XP/SP Rune - 50%" type="RUNE" icon="icon.skill19226">
 	<!-- 1-day item. When in inventory, your XP and SP gain is increased by 50%. -->
 		<restriction freightable="false" tradable="false" dropable="false" sellable="false" private-sellable="false" depositable="false"/>
 		<attributes duration="1440"/>
+		<skills>
+			<skill id="55718" value="-1"/>  <!-- XP Rune 50% -->
+		<skills>
 	</item>
 
 	<item id="71244" name="XP/SP Rune - 50%" type="RUNE" icon="icon.skill19226">
 	<!-- 7-day item. When in inventory, your XP and SP gain is increased by 50%. -->
 		<restriction freightable="false" tradable="false" dropable="false" sellable="false" private-sellable="false" depositable="false"/>
 		<attributes duration="10080"/>
+		<skills>
+			<skill id="55718" value="-1"/>  <!-- XP Rune 50% -->
+		<skills>
 	</item>
 
 	<item id="71245" name="XP/SP Rune - 50%" type="RUNE" icon="icon.skill19226">
 	<!-- 30-day item. When in inventory, your XP and SP gain is increased by 50%. -->
 		<restriction freightable="false" tradable="false" dropable="false" sellable="false" private-sellable="false" depositable="false"/>
 		<attributes duration="43200"/>
+		<skills>
+			<skill id="55718" value="-1"/>  <!-- XP Rune 50% -->
+		<skills>
 	</item>
 
 	<item id="71246" name="XP/SP Rune - 50% (1-hour) Pack" type="NONE" icon="icon.etc_pi_gift_box_i00">

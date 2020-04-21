@@ -132,7 +132,7 @@
                     <value level="11">60.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="4">2.0</value>
                     <value level="5">5.0</value>
@@ -142,7 +142,7 @@
                     <value level="9">30.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="4">2.0</value>
                     <value level="5">5.0</value>
@@ -661,7 +661,7 @@
                     <value level="11">30.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="3">3.0</value>
                     <value level="5">4.0</value>

@@ -35,17 +35,8 @@
         </conditions>
         <effects>
             <vital-stat-modify stat="MAX_CP" stat-add="MAX_CP">
-                <power initial="3000.0"/>
-            </vital-stat-modify>
-            <stat-modify mode="PER" stat="PVP_PHYSICAL_ATTACK_DAMAGE">
-                <power initial="10.0"/>
-            </stat-modify>
-            <stat-modify mode="PER" stat="PVP_MAGICAL_SKILL_DAMAGE">
-                <power initial="10.0"/>
-            </stat-modify>
-            <stat-modify mode="PER" stat="PVP_PHYSICAL_SKILL_DAMAGE">
-                <power initial="10.0"/>
-            </stat-modify>
+                <power initial="2000.0"/>
+            </vital-stat-modify>           
         </effects>
     </skill>
     <skill id="19033" name="Ability of Darkness">
@@ -56,17 +47,8 @@
         <target/>
         <effects>
             <vital-stat-modify stat="MAX_CP" stat-add="MAX_CP">
-                <power initial="3000.0"/>
-            </vital-stat-modify>
-            <stat-modify mode="PER" stat="PVP_PHYSICAL_ATTACK_DAMAGE">
-                <power initial="10.0"/>
-            </stat-modify>
-            <stat-modify mode="PER" stat="PVP_MAGICAL_SKILL_DAMAGE">
-                <power initial="10.0"/>
-            </stat-modify>
-            <stat-modify mode="PER" stat="PVP_PHYSICAL_SKILL_DAMAGE">
-                <power initial="10.0"/>
-            </stat-modify>
+                <power initial="1000.0"/>
+            </vital-stat-modify>          
         </effects>
     </skill>
     <skill id="19034" name="Seal of Ruler" action="A1">
@@ -130,10 +112,10 @@
             <chance initial="-1"/>
         </abnormal>
         <effects>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="3.0"/>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power initial="3.0"/>
             </stat-modify>
         </effects>

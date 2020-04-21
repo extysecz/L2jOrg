@@ -522,14 +522,14 @@
         <attributes property="MAGIC" magic-critical-rate="5.0" stay-after-death="true">
         </attributes>
         <target/>
-        <conditions>
-            <level max-level="85" scope="PASSIVE"/>
-        </conditions>
+		<!-- <abnormal type="EXP_SP_C"> -->
+			<!-- <level initial="1"/> -->                
+        <!-- </abnormal> -->
         <effects>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="100.0"/>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power initial="100.0"/>
             </stat-modify>
         </effects>
@@ -1572,7 +1572,7 @@
             <chance initial="-1"/>
         </abnormal>
         <effects>
-            <stat-modify stat="BONUS_EXP" stat-add="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="5.0">
                     <value level="2">7.0</value>
                     <value level="3">10.0</value>

@@ -881,7 +881,7 @@
             <time initial="900"/>
         </abnormal>
         <effects>
-            <stat-modify mode="PER" stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="5"/>
             </stat-modify>
         </effects>
@@ -902,7 +902,7 @@
             <time initial="900"/>
         </abnormal>
         <effects>
-            <stat-modify mode="PER" stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="10"/>
             </stat-modify>
             <stat-modify mode="PER" stat="PHYSICAL_ATTACK">
@@ -932,7 +932,7 @@
             <time initial="900"/>
         </abnormal>
         <effects>
-            <stat-modify mode="PER" stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="20"/>
             </stat-modify>
             <stat-modify mode="PER" stat="PHYSICAL_ATTACK">
@@ -974,7 +974,7 @@
             <time initial="900"/>
         </abnormal>
         <effects>
-            <stat-modify mode="PER" stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="30"/>
             </stat-modify>
             <stat-modify mode="PER" stat="PHYSICAL_ATTACK">
@@ -1022,7 +1022,7 @@
             <time initial="900"/>
         </abnormal>
         <effects>
-            <stat-modify mode="PER" stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="50"/>
             </stat-modify>
             <stat-modify mode="PER" stat="PHYSICAL_ATTACK">
@@ -1076,7 +1076,7 @@
             <time initial="900"/>
         </abnormal>
         <effects>
-            <stat-modify mode="PER" stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="5"/>
             </stat-modify>
         </effects>
@@ -1460,23 +1460,57 @@
     <skill id="59198" name="School Uniform B" action="A1">
         <!-- Transformed into a standard transformation. XP gain +5%%. Transformation remains after death. -->
         <icon initial="BranchIcon.Icon.g_bm_costume_schoollook_b"/>
-        <attributes property="PHYSIC" auto-use="TRANSFORM">
-            <cast-range initial="-1"/>
+        <attributes property="PHYSIC" stay-after-death="true" auto-use="TRANSFORM">
             <reuse initial="10800000"/>
             <effect-range initial="-1"/>
-            <activate-rate initial="-1"/>
         </attributes>
+        <consume>
+            <item initial="71684"/>
+            <item-count initial="15"/>
+        </consume>
         <target/>
+        <abnormal type="CHANGEBODY" visual="COSTUME_SCHOOL_LV2">
+			<level initial="1"/>
+            <time initial="900"/>
+        </abnormal>
+        <effects>
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
+                <power initial="5.0"/>
+            </stat-modify>
+        </effects>
     </skill>
     <skill id="59199" name="School Uniform B" action="A1">
         <!-- Transformed into a high-grade transformation. XP gain +10%%, P. Atk. +5%%, M. Atk. +5%%. Transformation remains after death. \n\n<Special Ability>\n CON +1, MEN +1 -->
         <icon initial="BranchIcon.Icon.g_bm_costume_schoollook_b"/>
-        <attributes property="PHYSIC" auto-use="TRANSFORM">
-            <cast-range initial="-1"/>
+        <attributes property="PHYSIC" stay-after-death="true" auto-use="TRANSFORM">
             <reuse initial="10800000"/>
             <effect-range initial="-1"/>
-            <activate-rate initial="-1"/>
         </attributes>
+        <consume>
+            <item initial="71684"/>
+            <item-count initial="15"/>
+        </consume>
         <target/>
+        <abnormal type="CHANGEBODY" visual="COSTUME_SCHOOL_LV2">
+			<level initial="2"/>
+            <time initial="900"/>
+        </abnormal>
+        <effects>
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
+                <power initial="10.0"/>
+            </stat-modify>
+			<stat-modify mode="PER" stat="PHYSICAL_ATTACK">
+                <power initial="5.0"/>
+            </stat-modify>
+            <stat-modify mode="PER" stat="MAGIC_ATTACK">
+                <power initial="5.0"/>
+            </stat-modify>
+			<base-stat type="CON">
+                <power initial="1.0"/>
+            </base-stat>
+			<base-stat type="MEN">
+                <power initial="1.0"/>
+            </base-stat>
+        </effects>
     </skill>
 </list>

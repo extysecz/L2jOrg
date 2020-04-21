@@ -577,7 +577,7 @@
             <activate-rate initial="-1"/>
         </attributes>
         <target/>
-        <abnormal>
+        <abnormal type="EXP_ELEMENTAL">
             <level initial="1"/>
             <time initial="1200"/>
             <chance initial="-1"/>

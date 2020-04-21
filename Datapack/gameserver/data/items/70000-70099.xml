@@ -768,10 +768,10 @@
 	<item id="70094" name="XP Rune - 100%" type="RUNE" icon="icon.skill19226">
 	<!-- A 2-hour item. When in inventory, your XP and SP gain is increased by 100%.  -->
 		<restriction freightable="false" olympiad-restricted="true" tradable="false" dropable="false" sellable="false" private-sellable="false" depositable="false"/>
-		<attributes duration="120" immediate-effect="true"/>
-		<skill-reducer>
+		<attributes duration="120" enchant-enabled="false" />
+		<skills>
 			<skill id="55234" value="-1"/>  <!-- XP Rune 100% -->
-		</skill-reducer>
+		<skills>
 	</item>
 
 	<armor id="70095" name="Wooden Helmet" type="NONE" body-part="HEAD" icon="icon.armor_leather_helmet_i00">

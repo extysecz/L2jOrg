@@ -327,8 +327,8 @@
             <activate-rate initial="-1"/>
         </attributes>
         <target/>
-        <abnormal>
-            <level initial="1"/>
+        <abnormal type="EXP_ELEMENTAL">
+            <level initial="2"/>
             <time initial="1200"/>
             <chance initial="-1"/>
         </abnormal>
@@ -348,8 +348,8 @@
             <activate-rate initial="-1"/>
         </attributes>
         <target/>
-        <abnormal>
-            <level initial="1"/>
+        <abnormal type="EXP_ELEMENTAL">
+            <level initial="3"/>
             <time initial="1200"/>
             <chance initial="-1"/>
         </abnormal>

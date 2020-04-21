@@ -43,7 +43,7 @@
                     <value level="10">202.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -53,7 +53,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -124,7 +124,7 @@
                     <value level="10">1344.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -134,7 +134,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -221,7 +221,7 @@
                     <value level="10">12.0</value>
                 </power>
             </stat-hp-based>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -231,7 +231,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -318,7 +318,7 @@
                     <value level="10">12.0</value>
                 </power>
             </stat-hp-based>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -328,7 +328,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -424,7 +424,7 @@
                     <value level="10">12.0</value>
                 </power>
             </stat-hp-based>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -434,7 +434,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -489,7 +489,7 @@
                     <value level="10">156.0</value>
                 </power>
             </vital-stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -499,7 +499,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -570,7 +570,7 @@
                     <value level="10">316.0</value>
                 </power>
             </vital-stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -580,7 +580,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -683,7 +683,7 @@
                     <value level="10">2.8</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -693,7 +693,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -796,7 +796,7 @@
                     <value level="10">2.8</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -806,7 +806,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -925,7 +925,7 @@
                     <value level="10">40.0</value>
                 </power>
             </magic-cost>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -935,7 +935,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -1000,7 +1000,7 @@
                     <value level="10">28.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -1010,7 +1010,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -1081,7 +1081,7 @@
                     <value level="10">71.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -1091,7 +1091,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -1178,7 +1178,7 @@
                     <value level="10">100.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -1188,7 +1188,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -1291,7 +1291,7 @@
                     <value level="10">50.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -1301,7 +1301,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -1404,7 +1404,7 @@
                     <value level="10">50.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -1414,7 +1414,7 @@
                     <value level="10">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power>
                     <value level="5">5.0</value>
                     <value level="6">10.0</value>
@@ -1480,7 +1480,7 @@
         </attributes>
         <target/>
         <effects>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="5.0">
                     <value level="2">10.0</value>
                     <value level="3">15.0</value>
@@ -1489,7 +1489,7 @@
                     <value level="6">40.0</value>
                 </power>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power initial="5.0">
                     <value level="2">10.0</value>
                     <value level="3">15.0</value>
@@ -1998,7 +1998,7 @@
             <hp-drain percentage="3">
                 <power initial="49.0"/>
             </hp-drain>
-            <stat-modify mode="PER" stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="5.0"/>
             </stat-modify>
             <stat-modify mode="PER" stat="BONUS_SP">
@@ -2052,7 +2052,7 @@
         </attributes>
         <target/>
         <effects>
-            <stat-modify mode="PER" stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="15.0"/>
             </stat-modify>
             <stat-modify mode="PER" stat="BONUS_SP">
@@ -2105,7 +2105,7 @@
         </attributes>
         <target/>
         <effects>
-            <stat-modify mode="PER" stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="30.0"/>
             </stat-modify>
             <stat-modify mode="PER" stat="BONUS_SP">
@@ -2227,19 +2227,19 @@
     <skill id="55168" name="Clan Unity - Lv. 1" action="A2">
         <!-- Clan Alliance Buff. For 3 hours, XP/SP bonus +3%%. -->
         <icon initial="icon.skill19011"/>
-        <attributes property="PHYSIC">
+        <attributes property="PHYSIC" stay-after-death="true">
             <cast-range initial="-1"/>
             <effect-point initial="100"/>
             <effect-range initial="-1"/>
         </attributes>
         <target/>
-        <abnormal type="CLAN_TEAMWORK">
+        <abnormal type="EXP_SP_B">
             <level initial="1"/>
             <time initial="10800"/>
             <chance initial="-1"/>
         </abnormal>
         <effects>
-            <stat-modify mode="PER" stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="3.0"/>
             </stat-modify>
             <stat-modify mode="PER" stat="BONUS_SP">
@@ -2250,22 +2250,22 @@
     <skill id="55169" name="Clan Unity - Lv. 2" action="A2">
         <!-- Clan Alliance Buff. For 3 hours, XP/SP bonus +5%%, damage received in PvE -2%%. -->
         <icon initial="icon.skill19011"/>
-        <attributes property="PHYSIC">
+        <attributes property="PHYSIC" stay-after-death="true">
             <cast-range initial="-1"/>
             <effect-point initial="100"/>
             <effect-range initial="-1"/>
         </attributes>
         <target/>
-        <abnormal type="CLAN_TEAMWORK">
+        <abnormal type="EXP_SP_B">
             <level initial="2"/>
             <time initial="10800"/>
             <chance initial="-1"/>
         </abnormal>
         <effects>
-            <stat-modify stat="BONUS_EXP" stat-add="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="5.0"/>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power initial="5.0"/>
             </stat-modify>
             <stat-modify mode="PER" stat="PVE_MAGICAL_SKILL_DEFENCE">
@@ -2282,22 +2282,22 @@
     <skill id="55170" name="Clan Unity - Lv. 3" action="A2">
         <!-- Clan Alliance Buff. For 3 hours, XP/SP bonus +7%%, damage received in PvE -5%%. -->
         <icon initial="icon.skill19011"/>
-        <attributes property="PHYSIC">
+        <attributes property="PHYSIC" stay-after-death="true">
             <cast-range initial="-1"/>
             <effect-point initial="100"/>
             <effect-range initial="-1"/>
         </attributes>
         <target/>
-        <abnormal type="CLAN_TEAMWORK">
-            <level initial="2"/>
+        <abnormal type="EXP_SP_B">
+            <level initial="3"/>
             <time initial="10800"/>
             <chance initial="-1"/>
         </abnormal>
         <effects>
-            <stat-modify stat="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="7.0"/>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power initial="7.0"/>
             </stat-modify>
             <stat-modify mode="PER" stat="PVE_MAGICAL_SKILL_DEFENCE">
@@ -2314,22 +2314,22 @@
     <skill id="55171" name="Clan Unity - Lv. 4" action="A2">
         <!-- Clan Alliance Buff. XP/SP gain +10%%, PvE damage +7%%, damage received in PvE -8%% for 3 hours. -->
         <icon initial="icon.skill19011"/>
-        <attributes property="PHYSIC">
+        <attributes property="PHYSIC" stay-after-death="true">
             <cast-range initial="-1"/>
             <effect-point initial="100"/>
             <effect-range initial="-1"/>
         </attributes>
         <target/>
-        <abnormal type="CLAN_TEAMWORK">
-            <level initial="2"/>
+        <abnormal type="EXP_SP_B">
+            <level initial="4"/>
             <time initial="10800"/>
             <chance initial="-1"/>
         </abnormal>
         <effects>
-            <stat-modify stat="BONUS_EXP" stat-add="BONUS_EXP">
+            <stat-modify mode="PER" stat="BONUS_EXP" stat-add="BONUS_EXP">
                 <power initial="10.0"/>
             </stat-modify>
-            <stat-modify stat="BONUS_SP">
+            <stat-modify mode="PER" stat="BONUS_SP">
                 <power initial="10.0"/>
             </stat-modify>
             <stat-modify mode="PER" stat="PVE_MAGICAL_SKILL_DEFENCE">
