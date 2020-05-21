@@ -1412,7 +1412,7 @@ MP Recovery Bonus by 4 when equipped with a robe, M. Def. by 30%, M. Atk. by 30%
 	 <skill id="1499" name=" Improve Combat"  max-level="3" action="A2">
        <!-- Combines P. Atk. increase and P. Def. increase to have more advanced combat power increase effect. For 40 min., increases P. Atk. by 15% and P. Def. by 15%. -->
 		<icon initial="icon.skill1499"/>
-        <attributes property="PHYSIC" magic-critical-rate="-5.0">
+        <attributes display-id="7088" property="PHYSIC" magic-critical-rate="-5.0">
             <magic-level initial="70"/>
             <cast-range initial="900"/>
             <reuse initial="1000"/>
