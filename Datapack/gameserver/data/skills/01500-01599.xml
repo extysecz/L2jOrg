@@ -396,7 +396,7 @@
                     <value level="9">9</value>
                     <value level="10">10</value>
                 </power>
-                <chance initial="40"/>
+                <chance initial="15"/>
                 <min-damage initial="10"/>
             </trigger-skill-by-attack>
             <trigger-skill-by-magic skill="45166" target="ENEMY">
@@ -411,7 +411,7 @@
                     <value level="9">9</value>
                     <value level="10">10</value>
                 </power>
-                <chance initial="40.0"/>
+                <chance initial="20"/>
                 <types>PHYSIC</types>
             </trigger-skill-by-magic>
             <trigger-skill-by-magic skill="45167" target="ENEMY">
@@ -426,7 +426,7 @@
                     <value level="9">9</value>
                     <value level="10">10</value>
                 </power>
-                <chance initial="40.0"/>
+                <chance initial="20"/>
                 <types>MAGIC</types>
             </trigger-skill-by-magic>
         </effects>
