@@ -566,7 +566,7 @@
 	<item id="49764" name="Scroll: 20,000 SP" type="SCROLL" icon="icon.etc_sp_scroll3_i00">
 	<!-- SP +20000. -->
 		<restriction freightable="false" stackable="true" sellable="false" depositable="false"/>
-		<attributes weight="30" action="SKILL_REDUCE"/>
+		<attributes weight="30" commission-type="SCROLL_OTHER" action="SKILL_REDUCE"/>
 		<skill-reducer>
 			<skill id="40144" value="-1"/>  <!-- Scroll: 20,000 SP -->
 		</skill-reducer>

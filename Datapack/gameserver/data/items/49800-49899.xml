@@ -12,13 +12,7 @@
 		<attributes duration="120"  enchant-enabled="false" />
 		<crystal />
 			<stats>
-				<stat type="PHYSICAL_ATTACK" value="60.0"/>
-				<stat type="MAGIC_ATTACK" value="60.0"/>
-				<stat type="MAGICAL_DEFENCE" value="21.0"/>
-				<stat type="BONUS_EXP" value="30.0"/>
-				<stat type="BONUS_SP" value="30.0"/>
-				<stat type="CRITICAL_DAMAGE" value="5.0"/>
-				<stat type="MAGIC_CRITICAL_DAMAGE" value="5.0"/>
+				<stat type="PHYSICAL_DEFENCE" value="52.0"/>
 			</stats>
 	</armor>
 
@@ -28,13 +22,7 @@
 		<attributes duration="120" enchant-enabled="false" />
 		<crystal />
 		<stats>
-			<stat type="PHYSICAL_ATTACK" value="60.0"/>
-			<stat type="MAGIC_ATTACK" value="60.0"/>
-			<stat type="MAGICAL_DEFENCE" value="21.0"/>
-			<stat type="BONUS_EXP" value="30.0"/>
-			<stat type="BONUS_SP" value="30.0"/>
-			<stat type="CRITICAL_DAMAGE" value="5.0"/>
-			<stat type="MAGIC_CRITICAL_DAMAGE" value="5.0"/>
+			<stat type="PHYSICAL_DEFENCE" value="52.0"/>
 		</stats>
 	</armor>
 

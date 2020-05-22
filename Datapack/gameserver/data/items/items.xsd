@@ -327,7 +327,7 @@
             <xs:enumeration value="FEET"/>
             <xs:enumeration value="SHIELD"/>
             <xs:enumeration value="SIGIL"/>
-            <xs:enumeration value="UNDERWEAR"/>
+            <xs:enumeration value="PENDANT"/>
             <xs:enumeration value="CLOAK"/>
             <xs:enumeration value="RING"/>
             <xs:enumeration value="EARRING"/>
