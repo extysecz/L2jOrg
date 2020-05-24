@@ -581,6 +581,42 @@
                     <value level="20">5.0</value>
                 </power>
             </stat-modify>
+            <stat-modify stat="MAGICAL_DEFENCE" mode="PER" start-level="5">
+                <power initial="3">
+                    <value level="6">3</value>
+                    <value level="7">3</value>
+                    <value level="8">3</value>
+                    <value level="9">3</value>
+                    <value level="10">3</value>
+                    <value level="11">3</value>
+                    <value level="12">3</value>
+                    <value level="13">3</value>
+                    <value level="14">3</value>
+                    <value level="15">3</value>
+                    <value level="16">3</value>
+                    <value level="17">3</value>
+                    <value level="18">3</value>
+                    <value level="19">3</value>
+                    <value level="20">3</value>
+                </power>
+            </stat-modify>
+            <damage-by-attack start-level="7">
+                <power initial="950">
+                    <value level="8">950</value>
+                    <value level="9">950</value>
+                    <value level="10">950</value>
+                    <value level="11">1425</value>
+                    <value level="12">1425</value>
+                    <value level="13">1425</value>
+                    <value level="14">1425</value>
+                    <value level="15">1900</value>
+                    <value level="16">1900</value>
+                    <value level="17">1900</value>
+                    <value level="18">1900</value>
+                    <value level="19">2375</value>
+                    <value level="20">2375</value>
+                </power>
+            </damage-by-attack>
         </effects>
     </skill>
     <skill id="55738" name="Aden Cloak Basic Effect">
@@ -644,6 +680,83 @@
                     <value level="18">4.5</value>
                     <value level="19">4.8</value>
                     <value level="20">5.0</value>
+                </power>
+            </stat-modify>
+            <stat-modify mode="PER" stat="PVE_PHYSICAL_SKILL_DAMAGE" stat-add="PVE_PHYSICAL_SKILL_DAMAGE">
+            <power initial="0.3">
+                <value level="2">0.5</value>
+                <value level="3">0.8</value>
+                <value level="4">1.0</value>
+                <value level="5">1.3</value>
+                <value level="6">1.5</value>
+                <value level="7">1.8</value>
+                <value level="8">2.0</value>
+                <value level="9">2.3</value>
+                <value level="10">2.5</value>
+                <value level="11">2.8</value>
+                <value level="12">3.0</value>
+                <value level="13">3.3</value>
+                <value level="14">3.5</value>
+                <value level="15">3.8</value>
+                <value level="16">4.0</value>
+                <value level="17">4.3</value>
+                <value level="18">4.5</value>
+                <value level="19">4.8</value>
+                <value level="20">5.0</value>
+            </power>
+        </stat-modify>
+            <stat-modify mode="PER" stat="PVE_PHYSICAL_ATTACK_DAMAGE" stat-add="PVE_PHYSICAL_ATTACK_DAMAGE">
+                <power initial="0.3">
+                    <value level="2">0.5</value>
+                    <value level="3">0.8</value>
+                    <value level="4">1.0</value>
+                    <value level="5">1.3</value>
+                    <value level="6">1.5</value>
+                    <value level="7">1.8</value>
+                    <value level="8">2.0</value>
+                    <value level="9">2.3</value>
+                    <value level="10">2.5</value>
+                    <value level="11">2.8</value>
+                    <value level="12">3.0</value>
+                    <value level="13">3.3</value>
+                    <value level="14">3.5</value>
+                    <value level="15">3.8</value>
+                    <value level="16">4.0</value>
+                    <value level="17">4.3</value>
+                    <value level="18">4.5</value>
+                    <value level="19">4.8</value>
+                    <value level="20">5.0</value>
+                </power>
+            </stat-modify>
+            <stat-modify mode="PER" stat="MAGIC_ATTACK" start-level="5">
+                <power initial="3">
+                    <value level="6">3</value>
+                    <value level="7">3</value>
+                    <value level="8">3</value>
+                    <value level="9">3</value>
+                    <value level="10">3</value>
+                    <value level="11">3</value>
+                    <value level="12">3</value>
+                    <value level="13">3</value>
+                    <value level="14">3</value>
+                    <value level="15">3</value>
+                    <value level="16">3</value>
+                    <value level="17">3</value>
+                    <value level="18">3</value>
+                    <value level="19">3</value>
+                    <value level="20">3</value>
+                </power>
+            </stat-modify>
+            <stat-modify mode="PER" stat="MAGIC_CRITICAL_DAMAGE" start-level="12">
+                <power initial="1">
+                    <value level="13">2</value>
+                    <value level="14">3</value>
+                    <value level="15">4</value>
+                    <value level="16">5</value>
+                    <value level="17">6</value>
+                    <value level="18">7</value>
+                    <value level="19">8</value>
+                    <value level="20">10</value>
                 </power>
             </stat-modify>
         </effects>
@@ -737,6 +850,37 @@
                     <value level="20">5.0</value>
                 </power>
             </stat-modify>
+            <stat-modify stat="PHYSICAL_ATTACK" mode="PER" start-level="5">
+                <power initial="3">
+                    <value level="6">3</value>
+                    <value level="7">3</value>
+                    <value level="8">3</value>
+                    <value level="9">3</value>
+                    <value level="10">3</value>
+                    <value level="11">3</value>
+                    <value level="12">3</value>
+                    <value level="13">3</value>
+                    <value level="14">3</value>
+                    <value level="15">3</value>
+                    <value level="16">3</value>
+                    <value level="17">3</value>
+                    <value level="18">3</value>
+                    <value level="19">3</value>
+                    <value level="20">3</value>
+                </power>
+            </stat-modify>
+            <stat-modify stat="CRITICAL_DAMAGE_SKILL" mode="PER" start-level="12">
+                <power initial="1">
+                    <value level="13">2</value>
+                    <value level="14">3</value>
+                    <value level="15">4</value>
+                    <value level="16">5</value>
+                    <value level="17">6</value>
+                    <value level="18">7</value>
+                    <value level="19">8</value>
+                    <value level="20">10</value>
+                </power>
+            </stat-modify>
         </effects>
     </skill>
     <skill id="55742" name="Ferios Cloak Basic Effect">
@@ -779,7 +923,7 @@
         </attributes>
         <target/>
         <effects>
-            <damage-by-attack type="PK">
+            <damage-by-attack type="ENEMY_ALL">
                 <power initial="-1.0">
                     <value level="2">-2.0</value>
                     <value level="3">-3.0</value>
@@ -802,6 +946,60 @@
                     <value level="20">-20.0</value>
                 </power>
             </damage-by-attack>
+            <damage-by-attack type="PK" start-level="7">
+                <power initial="-5.0">
+                    <value level="8">-7.0</value>
+                    <value level="9">-9.0</value>
+                    <value level="10">-11.0</value>
+                    <value level="11">-13.0</value>
+                    <value level="12">-15.0</value>
+                    <value level="13">-17.0</value>
+                    <value level="14">-18.0</value>
+                    <value level="15">-20.0</value>
+                    <value level="16">-22.0</value>
+                    <value level="17">-24.0</value>
+                    <value level="18">-26.0</value>
+                    <value level="19">-28.0</value>
+                    <value level="20">-30.0</value>
+                </power>
+            </damage-by-attack>
+            <stat-modify stat="PHYSICAL_DEFENCE" mode="PER" start-level="5">
+                <power initial="3">
+                    <value level="6">3</value>
+                    <value level="7">3</value>
+                    <value level="8">3</value>
+                    <value level="9">3</value>
+                    <value level="10">3</value>
+                    <value level="11">3</value>
+                    <value level="12">3</value>
+                    <value level="13">3</value>
+                    <value level="14">3</value>
+                    <value level="15">3</value>
+                    <value level="16">3</value>
+                    <value level="17">3</value>
+                    <value level="18">3</value>
+                    <value level="19">3</value>
+                    <value level="20">3</value>
+                </power>
+            </stat-modify>
+            <vital-stat-modify stat="MAX_CP" mode="PER" start-level="12">
+                <power initial="10">
+                    <value level="13">10</value>
+                    <value level="14">10</value>
+                    <value level="15">10</value>
+                    <value level="16">10</value>
+                    <value level="17">10</value>
+                    <value level="18">10</value>
+                    <value level="19">10</value>
+                    <value level="20">10</value>
+                </power>
+            </vital-stat-modify>
+            <stat-hp-based stat="MAGIC_ATTACK" hp-percent="90" start-level="18">
+                <power initial="1800">
+                    <value level="19">2700</value>
+                    <value level="20">3600</value>
+                </power>
+            </stat-hp-based>
         </effects>
     </skill>
     <skill id="55744" name="Blessing of Elmoreden" action="A1">
@@ -816,6 +1014,14 @@
             <activate-rate initial="-1"/>
         </attributes>
         <target/>
+        <abnormal type="INVINCIBILITY" visual="INVINCIBILITY">
+            <time initial="10"/>
+        </abnormal>
+        <effects>
+            <speed>
+                <power initial="100"/>
+            </speed>
+        </effects>
     </skill>
     <skill id="55745" name="Spirit of Aden" action="A1">
         <!-- Increases PvE Damage by 100% when dealing magic attack. -->
